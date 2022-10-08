@@ -1,0 +1,42 @@
+@media(max-width: 1000px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-left {
+        width: 70vw;
+        height: 40vw;        
+    }
+
+    .div-pequena {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0.5vw;        
+        max-width: 194px;
+    }
+
+    .item-grande {
+        max-width: 397px;
+        max-height: 197px;
+    }
+
+    .item-pequeno {
+        max-width: 95px;
+    }
+
+    .img-p {
+        width: 4vw;
+    }
+    
+    h2 {
+        font-size: 1.5vw;
+    }
+
+    p {
+        font-size: 1vw;
+    }
+    
+}
