@@ -1,0 +1,33 @@
+.menu-mobile {
+    display: none;
+}
+
+.tittle-header {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 0.5vw;
+}
+
+.letra{
+    margin: 0.5vw;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6vw;
+    width: 80vw;
+    margin: 0 auto;
+    border-top: 1px solid #fff;
+}
+
+.item-menu {
+    font-size: 1em;
+    text-decoration: none;
+    color: #fff; 
+    padding: 1vw;
+}
