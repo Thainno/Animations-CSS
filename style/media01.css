@@ -28,7 +28,7 @@
     }
 
     .item-pequeno {
-        min-width: 95px;
+        max-width: 95px;
     }
 
     .img-media {

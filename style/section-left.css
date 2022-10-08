@@ -64,6 +64,26 @@
     min-height: 10px;
 }
 
+.item-02 {
+    grid-column: 5;
+    grid-row: 1; 
+}
+
+.item-04 {
+    grid-column: 5;
+    grid-row: 2; 
+}
+
+.item-06 {
+    grid-column: 5;
+    grid-row: 3; 
+}
+
+.item-08 {
+    grid-column: 5;
+    grid-row: 4; 
+}
+
 .item-03 {
     grid-column: 6 / 8;
     grid-row: 1;
