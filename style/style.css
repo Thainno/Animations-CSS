@@ -103,13 +103,18 @@ main section {
 }
 
 .img-g {
-    width: 15vw;
-    padding: 0 3.4vw;   
+    width: 14.5vw;  
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
 }
 
 .img-p {
     width: 3.3vw;
-    padding: 0 0.9vw;   
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;  
 }
 
 .item-12 {
@@ -183,8 +188,11 @@ main section {
 
 .legend-media {
     background-color: #1e1e1ea1;
-    max-height: 2vw;
-    padding: 0.3vw;
+    min-height: 3vw;
+    padding: 0.2vw 1vw 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vw;
 }
 
 .img-media {
@@ -195,4 +203,3 @@ main section {
     border: 1px solid #ffffff;
     border-radius: 0.2vw;
 }
-

@@ -23,12 +23,36 @@
         max-height: 197px;
     }
 
+    .item-medio  h2{
+        font-size: 2vw;
+    }
+
     .item-pequeno {
-        max-width: 95px;
+        min-width: 95px;
+    }
+
+    .img-media {
+        width: 8vw;
+    }
+
+    .legend-media {        
+        min-height: 2vw;
     }
 
     .img-p {
-        width: 4vw;
+        width: 4.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .img-g {
+        width: 19.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
     }
     
     h2 {
@@ -36,7 +60,7 @@
     }
 
     p {
-        font-size: 1vw;
+        font-size: 1.2vw;
     }
     
 }

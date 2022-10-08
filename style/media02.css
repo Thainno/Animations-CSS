@@ -50,6 +50,23 @@
         display: none;
     }
 
+    .img-g {
+        width: 39.5vw;
+    }
+
+    .img-p {
+        width: 9.5vw;
+    }
+
+    .img-media {
+        width: 16vw;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;  
+    }
+
+    
+
     .item-01 {
         grid-column: 1 / 7  ;
         grid-row: 1 / 5;
