@@ -1,39 +1,16 @@
-
 .content-right {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 0.5vw;
-    width: 40vw;
-    height: 30vw;
+    width: 14.5vw;
+    height: 14.5vw;
 } 
 
-.relogio {
+
+.relogio, .load, .text, .colors {    
     border: 1px solid #ffffff;
     border-radius: 0.2vw;
-    width: 20vw;
-    height: 20vw;
-    position: relative;
-}
-
-.comp-relogio {
-    margin: 2vw;
-    width: 80%;
-    height: 80%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.min {
-    animation: girarPonteiro 5s linear infinite;
-}
-
-.hora {
-    animation: girarPonteiro 60s linear infinite;
-}
-
-@keyframes girarPonteiro{
-    from{transform: rotateZ(0deg);}
-    to {transform: rotateZ(360deg);}
+    width: 14.5vw;
+    height: 14.5vw;
 }
