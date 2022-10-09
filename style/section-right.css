@@ -9,5 +9,31 @@
 } 
 
 .relogio {
-    
+    border: 1px solid #ffffff;
+    border-radius: 0.2vw;
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+}
+
+.comp-relogio {
+    margin: 2vw;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.min {
+    animation: girarPonteiro 5s linear infinite;
+}
+
+.hora {
+    animation: girarPonteiro 60s linear infinite;
+}
+
+@keyframes girarPonteiro{
+    from{transform: rotateZ(0deg);}
+    to {transform: rotateZ(360deg);}
 }
