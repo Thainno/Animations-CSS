@@ -10,6 +10,11 @@
         height: 40vw;        
     }
 
+    .content-right {
+        display: flex;
+        gap: 3.5vw;
+    }
+
     .div-pequena {
         display: flex;
         flex-direction: column;
