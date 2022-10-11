@@ -1,0 +1,35 @@
+.colors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.effect-color {
+    width: 7.8vw;
+    height: 7.8vw;
+    border: 1px solid white;
+    background-color: ;
+    animation: mudarCor 1s infinite;
+    margin: auto;
+}
+
+@keyframes mudarCor {    
+    0%{
+        background-color: #ffffff; 
+        transform: scale(0);
+        opacity: 0;
+    }
+    60%{
+        background-color: #007F90;
+        transform: scale(1.3);
+        opacity: 1; 
+    }
+    75%{
+        background-color: #27cce2;
+    }
+    100%{
+        background-color: #007F90; 
+        transform: scale(1); 
+    }    
+} 

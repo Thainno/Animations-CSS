@@ -5,7 +5,7 @@
     gap: 1vw;
 }
 
-.teste {
+.effect-load {
     width: 7.5vw;
     height: 7.5vw;
     border: 1vw solid #5e7375ab;
@@ -15,7 +15,11 @@
 }   
 
 @keyframes girarLoad {
-    from {transform: rotateZ(0deg);}
-    to {transform: rotateZ(360deg);}
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
 }
 
