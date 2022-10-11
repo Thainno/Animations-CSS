@@ -1,0 +1,21 @@
+.load {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+
+.teste {
+    width: 7.5vw;
+    height: 7.5vw;
+    border: 1vw solid #5e7375ab;
+    border-top-color: #007F90;
+    border-radius: 5vw;
+    animation: girarLoad 1s infinite;
+}   
+
+@keyframes girarLoad {
+    from {transform: rotateZ(0deg);}
+    to {transform: rotateZ(360deg);}
+}
+

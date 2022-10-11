@@ -3,14 +3,17 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 0.5vw;
-    width: 14.5vw;
-    height: 14.5vw;
 } 
 
-
 .relogio, .load, .text, .colors {    
-    border: 1px solid #ffffff;
+    border: 0.08vw solid #ffffff;
     border-radius: 0.2vw;
     width: 14.5vw;
     height: 14.5vw;
+}
+
+.t-right {
+    text-align: center;
+    padding: 0.2vw;
+    font-size: 1.3vw;
 }
