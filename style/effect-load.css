@@ -9,9 +9,9 @@
     width: 7.5vw;
     height: 7.5vw;
     border: 1vw solid #5e7375ab;
-    border-top-color: #007F90;
+    border-top-color: #04dcfc;
     border-radius: 5vw;
-    animation: girarLoad 1s infinite;
+    animation: girarLoad 1.5s infinite;
 }   
 
 @keyframes girarLoad {

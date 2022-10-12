@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="style/effect-relogio.css">
     <link rel="stylesheet" href="style/effect-load.css">
     <link rel="stylesheet" href="style/effect-color.css">
-    <link rel="stylesheet" href="style/effect-text.css">    
+    <link rel="stylesheet" href="style/effect-text.css">
+    <link rel="stylesheet" href="style/effect-slide.css">   
+    <link rel="stylesheet" href="style/effect-img-p.css"> 
     <link rel="stylesheet" href="style/footer.css">
     <title>Projeto.dev</title>
 </head>
@@ -35,7 +37,7 @@
                 <span class="letra">v</span>
             </div>
         <div class="menu-mobile">
-            <img class="img-menu" src="imagens/icone menu.svg" alt="">
+            <img class="img-menu" src="imagens/icone menu.svg" alt="Ícone menu">
         </div>
         </div>  
         <nav class="menu">
@@ -52,11 +54,13 @@
         <section class="content-left">
                     <!-- Imagem grande 001 -->
             <picture class="item-01 item item-grande">
-                <img class="img-g" src="imagens/picture 004.svg" alt=""> 
+                <img class="img-g" src="imagens/html-g.jpg" alt="Html"> 
+                <img class="img-g" src="imagens/css-g.jpg" alt="Css"> 
+                <img class="img-g" src="imagens/react-g.jpg" alt="React"> 
             </picture>
                     <!-- Imagem pequena 001 --> 
             <picture class="item-02 item item-pequeno">
-                <img class="img-p" src="imagens/picture 001.svg" alt="">
+                <img class="img-p" src="imagens/html.svg" alt="Html">
             </picture>
             <div class="item-03 item div-pequena">
                 <h2>Tittle</h2>
@@ -64,7 +68,7 @@
             </div>
                     <!-- Imagem pequena 002 --> 
             <picture class="item-04 item item-pequeno">
-                <img class="img-p" src="imagens/picture 002.svg" alt="">
+                <img class="img-p" src="imagens/css.svg" alt="Css">
             </picture>
             <div class="item-05 item div-pequena">
                 <h2>Tittle</h2>
@@ -72,7 +76,7 @@
             </div>
                     <!-- Imagem pequena 003 --> 
             <picture class="item-06 item item-pequeno">
-                <img class="img-p" src="imagens/picture 003.svg" alt="">
+                <img class="img-p" src="imagens/js.svg" alt="Javascript">
             </picture>
             <div class="item-07 item div-pequena">
                 <h2>Tittle</h2>
@@ -80,7 +84,7 @@
             </div>
                     <!-- Imagem pequena 004 --> 
             <picture class="item-08 item item-pequeno">
-                <img class="img-p" src="imagens/picture 004.svg" alt="">
+                <img class="img-p" src="imagens/react.svg" alt="React">
             </picture>
             <div class="item-09 item div-pequena">
                 <h2>Tittle</h2>
@@ -89,7 +93,7 @@
                     <!-- Imagem média 001 --> 
             <div class="item-10 item item-medio">
                 <picture>
-                    <img class="img-media" src="imagens/picture 005.svg" alt="">
+                    <img class="img-media" src="imagens/noticia-m-01.jpg" alt="Notícia">
                 </picture>  
                 <div class="legend-media">             
                     <h2>Tittle</h2>
@@ -99,7 +103,7 @@
                     <!-- Imagem média 002 --> 
             <div class="item-11 item item-medio">
                 <picture>
-                    <img class="img-media" src="imagens/picture 006.svg" alt="">
+                    <img class="img-media" src="imagens/noticia-m-02.jpg" alt="Notícia">
                 </picture> 
                 <div class="legend-media">              
                     <h2>Tittle</h2>
@@ -107,44 +111,44 @@
                 </div> 
             </div>
                     <!-- Imagem grande 002 -->
-            <picture class="item-12 item item-grande">
-                <img class="img-g" src="imagens/picture 004.svg" alt=""> 
-            </picture>
+            <div class="item-12 item item-grande">
+                <picture class="item-01 item item-grande">
+                    <img class="img-g" src="imagens/noticia-g-01.jpg" alt="Imagem notícia"> 
+                    <img class="img-g" src="imagens/noticia-g-02.jpg" alt="Imagem notícia"> 
+                    <img class="img-g" src="imagens/noticia-g-03.jpg" alt="Imagem notícia"> 
+                </picture>
+            </div>
         </section>
         <section class="content-right">
             <div class="relogio">
                 <h2 class="t-relógio t-right">Relógio</h2>
                 <picture>
-                    <img class="borda comp-relogio" src="imagens/relogio/borda.svg" alt="">
-                    <img class="marc comp-relogio"src="imagens/relogio/marcadores.svg" alt="">
-                    <img class="hora comp-relogio" src="imagens/relogio/horas.svg" alt="">                    
-                    <img class="min comp-relogio" src="imagens/relogio/minutos.svg" alt="">
+                    <img class="borda comp-relogio" src="imagens/relogio/borda.svg" alt="Borda do relógio">
+                    <img class="marc comp-relogio"src="imagens/relogio/marcadores.svg" alt="Marcadores de hora">
+                    <img class="hora comp-relogio" src="imagens/relogio/horas.svg" alt="Ponteiro de horas">                    
+                    <img class="min comp-relogio" src="imagens/relogio/minutos.svg" alt="Ponteiros de minutos">
                 </picture>
             </div>
             <div class="load">
                 <h2 class="t-load t-right">Load</h2>
                 <div class="effect-load"></div>
             </div>
-            <div class="colors">
-                <h2 class="t-color t-right">Colors</h2>
-                <div class="effect-color"></div>
-            </div>
             <div class="text">
-                <!--<h2 class="t-text t-right">Text</h2>-->
+                <h2 class="t-text t-right">Text</h2>
                 <div class="alt-text">
                     <span class="fixo">Effect</span>
                     <ul class="alternando">
-                        <li><span>One</span></li>
-                        <li><span>Two</span></li>
-                        <li><span>Three</span></li>
-                        <li><span>For</span></li>
+                        <li><span class="text-01">One</span></li>
+                        <li><span class="text-02">Two</span></li>
+                        <li><span class="text-03">Three</span></li>
+                        <li><span class="text-04">For</span></li>
                     </ul>
                 </div>
             </div>      
         </section>
     </main>
     <footer>
-        <p>Projeto desenvolvido apenas com HTML e CSS utilizando display-grid, transitions e animations.</p>
+        <p>Projeto desenvolvido apenas com HTML e CSS puro.</p>
         <p>By Tainu</p>
     </footer>
 </body>

@@ -10,10 +10,12 @@
 .item-grande {    
     min-width: 180px;
     min-height: 50px;
+    position: relative;
+    overflow: hidden;
 }
 
 .item {
-    background-color: #007f902a;
+    background-color: #00000000;
     border: 0.08vw solid #ffffff;
     border-radius: 0.2vw;
 }
@@ -24,15 +26,14 @@
 }
 
 .img-g {
-    width: 14.5vw;  
+    width: 22.4vw;  
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    
 }
 
 .img-p {
-    width: 3.3vw;
+    width: 3.1vw;
     display: flex;
     justify-content: center;
     margin: 0 auto;  
@@ -46,6 +47,7 @@
 .item-pequeno {
     min-width: 10px;
     min-height: 10px;
+    border: none;
 }
 
 .div-pequena {
@@ -54,6 +56,7 @@
     justify-content: center;
     min-width: 10px;
     min-height: 10px;
+    border: none;
 }
 
 .item-02 {
@@ -132,5 +135,5 @@
 }
 
 .img-media {
-    width: 6vw;
+    width: 100%;
 }
