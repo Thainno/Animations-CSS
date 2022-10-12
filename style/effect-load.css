@@ -11,7 +11,7 @@
     border: 1vw solid #5e7375ab;
     border-top-color: #04dcfc;
     border-radius: 5vw;
-    animation: girarLoad 1.5s infinite;
+    animation: girarLoad 1s infinite;
 }   
 
 @keyframes girarLoad {
@@ -20,6 +20,6 @@
     }
     to {
         transform: rotateZ(360deg);
-    }
+    } 
 }
 

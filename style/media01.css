@@ -12,6 +12,7 @@
 
     .content-right {
         display: flex;
+        flex-direction: row;
         gap: 3.5vw;
     }
 
@@ -19,31 +20,16 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0 0.5vw;        
-        max-width: 194px;
-    }
-
-    .item-grande {
-        max-width: 397px;
-        max-height: 197px;
+        padding: 0 0.5vw;   
     }
 
     .item-medio  h2{
         font-size: 2vw;
     }
 
-    .item-pequeno {
-        max-width: 95px;
-    }
-
     .img-media {
-        width: 8vw;
+        height: 9.4vw;
     }
-
-    .legend-media {        
-        min-height: 2vw;
-    }
-
     .img-p {
         width: 4.5vw;
         display: flex;
@@ -65,7 +51,17 @@
     }
 
     p {
-        font-size: 1.2vw;
+        font-size: 1.1vw;
     }
     
+    .item-medio{
+        padding-bottom: 1vw;
+    }
+
+    .legend-media {
+        width: 27.5vw;
+        margin-bottom: 1vw;
+        margin: 0;
+    }
+
 }

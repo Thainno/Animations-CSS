@@ -1,0 +1,14 @@
+.legend-media:hover {    
+    animation: mostrarConteudo 0.1s forwards;
+    padding: 0.8vw 1vw;
+    margin-left: 0.1vw;
+}
+
+
+@keyframes mostrarConteudo {
+    to{
+        width: 14.7vw;
+        height: 7vw;
+    }
+}
+

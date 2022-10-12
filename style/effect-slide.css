@@ -5,14 +5,14 @@
     margin: 0 auto;    
     position: absolute;
     opacity: 0;
-    animation: slide 6s infinite;
+    animation: slide 9s infinite;
 }
 
 .img-g:nth-child(2){
-    animation-delay: 2s;
+    animation-delay: 3s;
 }
 .img-g:nth-child(3){
-    animation-delay: 4s;
+    animation-delay: 6s;
 }
 
 @keyframes slide {

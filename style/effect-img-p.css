@@ -1,0 +1,13 @@
+.img-p:hover {
+    animation: crescerImg 0.5s forwards;
+}
+
+@keyframes crescerImg {
+    50%{        
+        transform: scale(1.8);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+
+}
