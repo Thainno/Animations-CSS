@@ -2,31 +2,22 @@
     display: none;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+}
+
 .tittle-header {
+    width: 80vw;
     font-family: 'Inter', sans-serif;
     font-size: 2.2vw;
     color: #fff;
     display: flex;
     justify-content: center;
-    margin: 0.5vw;
+    margin: 0.5vw 2vw 2vw;
+    border-bottom: 0.1vw solid white;
 }
 
 .letra{
     margin: 0.5vw;
-}
-
-.menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80vw;
-    margin: 0 auto;
-    border-top: 0.08vw solid #fff;
-}
-
-.item-menu {
-    font-size: 1.3vw;
-    text-decoration: none;
-    color: #fff; 
-    padding: 1vw 3vw;
 }

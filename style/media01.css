@@ -28,7 +28,8 @@
     }
 
     .img-media {
-        height: 9.4vw;
+        max-width: 29.4vw;
+        max-height: 9.3vw;
     }
     .img-p {
         width: 4.5vw;
@@ -39,13 +40,10 @@
     }
 
     .img-g {
-        width: 19.5vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 auto;
+        min-width: 40vw;
+        max-height: 20vw;
     }
-    
+   
     h2 {
         font-size: 1.5vw;
     }
@@ -59,9 +57,10 @@
     }
 
     .legend-media {
-        width: 27.5vw;
-        margin-bottom: 1vw;
-        margin: 0;
-    }
-
+        background-color: #1e1e1ea1;
+        overflow: hidden;
+        width: 27.4vw;
+        margin-bottom: 0.2vw;
+        padding-bottom: 1.7vw;        
+    } 
 }

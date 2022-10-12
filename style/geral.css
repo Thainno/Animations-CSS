@@ -17,10 +17,6 @@ p {
     font-size: 0.72vw;
 }
 
-a {    
-    font-family: 'Inter', sans-serif;
-}
-
 main {
     display: flex;
     flex-direction: row;
@@ -29,4 +25,9 @@ main {
 
 main section {
     padding: 1vw;
+}
+
+h1::selection, h2::selection, p::selection, span::selection {
+    background-color: #fff;
+    color: black;
 }

@@ -30,50 +30,54 @@
         height: 80vw;        
         margin: 1vw;
     } 
-
-    .item-grande {
-        max-width: 450px;
-        max-height: 300px;
+    .content-grid {
+        grid-column: 6;
+        max-width: 10.7vw;
     }
-
-    .item-medio {
-        max-width: 162px;
-        max-height: 138px;
-    }
-
-    .item-pequeno {
-        max-width: 80px;
-        max-height: 68px;
-    } 
 
     .div-pequena {
         display: none;
     }
-
-    .img-g {
-        width: 39.5vw;
-    }
-
+    
     .img-p {
         width: 9vw;
-        margin: 0 auto;
     }
 
     .img-media {
-        width: 16vw;
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;  
+        min-width: 22.7vw;
+        min-height: 19.2vw;
+    }
+
+    .item-medio {
+        overflow: hidden;
+    }
+
+    .legend-media {
+        width: 21vw;
+        min-height: 5vw;        
+    }
+
+    .legend-media p {
+        font-size: 1.4vw;
+    }
+
+    .img-g {
+        min-height: 40vw;
+        min-width: 47vw;
+    }
+
+    .img-g-750 {        
+        min-width: 57.9vw;
     }
 
     .item-01 {
-        grid-column: 1 / 6  ;
-        grid-row: 1 / 5;
+        grid-column: 1 / 6 ;
+        grid-row: 1 / 5;          
     }
 
     .item-02 {
         grid-column: 6;
-        grid-row: 1;
+        grid-row: 1;        
     }
     
     .item-04 {

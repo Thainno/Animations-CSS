@@ -4,11 +4,42 @@
     margin-left: 0.1vw;
 }
 
-
 @keyframes mostrarConteudo {
     to{
         width: 14.7vw;
-        height: 7vw;
+        height: 6vw;
     }
 }
 
+@media(max-width: 1000px) {
+    .legend-media:hover {    
+        animation: mostrarConteudo02 0.1s forwards;
+    }
+
+    @keyframes mostrarConteudo02 {
+        to{
+            width: 27vw;
+            height: 7vw;
+            max-width: 27vw;
+            max-height: 7vw;
+            margin-bottom: 1vw;
+            padding-bottom: 1.5vw;
+            padding-right: 1.3vw;
+        }
+    }
+}
+
+@media(max-width: 750px) {  
+    .legend-media:hover {    
+        animation: mostrarConteudo03 0.1s forwards;
+    }
+
+    @keyframes mostrarConteudo03 {
+        to{
+            width: 21vw;
+            height: 10vw;
+            min-width: 10vw;
+            min-height: 20vw;
+        }
+    }
+}
