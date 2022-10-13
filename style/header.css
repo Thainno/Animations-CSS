@@ -14,8 +14,9 @@ header {
     color: #fff;
     display: flex;
     justify-content: center;
-    margin: 0.5vw 2vw 2vw;
     border-bottom: 0.1vw solid white;
+    padding: 0.8vw 0.8vw;
+    margin-bottom: 1.5vw;
 }
 
 .letra{
